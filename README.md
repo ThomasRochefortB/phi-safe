@@ -16,6 +16,12 @@ A "GPU-poor" implementation to scale SAFE-GPT to larger autoregressive models li
 
 Follow the instructions from the SAFE library.
 
+Make sure you have PEFT installed for LORA:
+
+```bash
+pip install peft
+```
+
 
 ## Usage
 
