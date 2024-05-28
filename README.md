@@ -17,6 +17,12 @@ Noutahi, E., Gabellini, C., Craig, M., Lim, J. S., & Tossou, P. (2024). Gotta be
 - Uses only 5% of the original SAFE dataset for training.
 - Provides options to resume training from checkpoints.
 
+## WIP notes:
+- Currently running on a 3090 with batch size of 32.
+- Currently puzzled by the slow training speed and large memory requirement of the data input sequence.
+
+---
+
 ## Requirements & Installation
 
 Follow the instructions from the SAFE repo:
