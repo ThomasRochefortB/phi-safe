@@ -3,6 +3,11 @@
 
 A "GPU-poor" implementation to scale SAFE-GPT to larger autoregressive models like Phi1_5.
 
+Reference to SAFE-GPT:
+
+```
+Noutahi, E., Gabellini, C., Craig, M., Lim, J. S., & Tossou, P. (2024). Gotta be SAFE: a new framework for molecular design. *Digital Discovery, 3*(4), 796-804.
+```
 
 ## Features
 
@@ -14,7 +19,9 @@ A "GPU-poor" implementation to scale SAFE-GPT to larger autoregressive models li
 
 ## Requirements & Installation
 
-Follow the instructions from the SAFE library.
+Follow the instructions from the SAFE repo:
+[SAFE repository](https://github.com/datamol-io/safe)
+
 
 Make sure you have PEFT installed for LORA:
 
