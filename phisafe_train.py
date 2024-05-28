@@ -6,7 +6,6 @@ from datasets import load_dataset
 from safe.tokenizer import SAFETokenizer
 from safe.trainer.collator import SAFECollator
 from transformers import AutoConfig, AutoModelForCausalLM, TrainingArguments
-from accelerate import init_empty_weights
 from peft import LoraConfig, get_peft_model, TaskType
 from safe.tokenizer import SAFESplitter
 from trl import SFTTrainer
