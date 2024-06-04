@@ -18,6 +18,8 @@ Noutahi, E., Gabellini, C., Craig, M., Lim, J. S., & Tossou, P. (2024). Gotta be
 - Provides options to resume training from checkpoints.
 
 ## WIP notes:
+- You can visualize and test the generated molecules in the phi-safe-viz.ipynb
+- I have implemented a LangChain agent to recreate a very simple version of LOWE in the notebook langchain_experiment.ipynb
 - Currently running on a 3090 with batch size of 32.
 - Currently puzzled by the slow training speed and large memory requirement of the data input sequence.
 
