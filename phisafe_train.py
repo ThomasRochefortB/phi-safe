@@ -173,9 +173,9 @@ def main(args):
     torch.cuda.empty_cache()
 
     if args.checkpoint_path:
-        train_result = trainer.train(resume_from_checkpoint=args.checkpoint_path)
+        trainer.train(resume_from_checkpoint=args.checkpoint_path)
     else:
-        train_result = trainer.train()
+        trainer.train()
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Training script for SAFE GPT model.")
